@@ -1,3 +1,4 @@
+
 #from Module import *
 #b=K_P(4,6)
 #print(b)
@@ -8,10 +9,31 @@
 #b3=K_P(-77,6)
 #print(b3)
 
+#1
 #from Module import *
 #A=arithmetic(2,3,"+")
 #print(A)
 
+#2
+#from Module import *
+#t=Liigaasta(int(input("aasta")))
+#print(t)
+
+#3
+#from Module import *
+#S,P,d=ruud(3)
+#print(S,P,round(d,2))
+
+#4
+#from Module import *
+#while 1:
+#    sad=K(int(input()))
+#    print(sad)
+
+#5
+#from Module import *
+#a=bank(100,5)
+#print(round(a,2))
+
+#6
 from Module import *
-t=Liigaasta(int(input("aasta")))
-print(t)
