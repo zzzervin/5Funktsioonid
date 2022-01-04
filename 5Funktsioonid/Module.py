@@ -11,7 +11,7 @@
 #        S=0.5*kulg*korgus
 #    return S
 
-#1
+#1---------------------------------------------------------
 #def arithmetic(arv1:float,arv2:float,operatsioon:str):
 #    """Liitmene,lahutamine,korrutamine ja jagamine.
 #   """
@@ -22,7 +22,7 @@
 #            S=(str(arv1)+operatsioon+str(arv2))
 #        return S
 
-#2
+#2---------------------------------
 #def Liigaasta (aasta:int)->bool:
 #    """ 
 #    """
@@ -32,7 +32,7 @@
 #        tulemus=False
 #    return tulemus
 
-#3
+#3------------------------------
 #from math import *
 #def ruud(a:float):
 #    """
@@ -44,7 +44,7 @@
 #    d=a*sqrt(2)
 #    return P,S,d  
 
-#4
+#4------------------------------
 #def K(kuu:int)->str:
 #    """
 #    (talv, kevad, suvi ja sügis).
@@ -62,7 +62,7 @@
 #            s="sügis "        
 #        return s
 
-#5
+#5-----------------------------------
 #def bank(a:float,y:int)->float:
 #    """
 #    Kasutaja teeb aastateks euro suuruse sissemakse 10% aastas
@@ -72,13 +72,22 @@
 #    for i in range(y):
 #        a*=1.1
 #    return a
-
-def is_prime(a:int)->bool:
-    t=0
-    for i in range(1,a+1):
-        if a%0==0:t+=1
-    if t==2:
-        t=True
-    else:
-        t=False
-    return t
+#6-------------------------------
+#def is_prime(a:int)->bool:
+#    """
+#    :param a int: a 
+#    :rtype:  a int 
+#    """
+#    t=0 
+#    for i in range (1, a+1):
+#        if a%i==0:
+#           t+=1
+#    if t==2:
+#        t=True
+#    else:
+#        t=False
+#    return t 
+#7-------------------
+from datetime import*
+def is_prime(a:int,b:int,c:int)->bool:
+    

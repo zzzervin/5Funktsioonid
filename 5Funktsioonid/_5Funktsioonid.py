@@ -32,8 +32,19 @@
 
 #5
 #from Module import *
-#a=bank(100,5)
+#A=int(input("sum>>>:  "))
+#B=int(input("aasta>>>:  "))
+#a=bank(B,A)
 #print(round(a,2))
 
 #6
+#from Module import *
+##while 1:
+##    a=int(input("arv:  "))
+##    s1=is_prime(a)
+##    print(s1)
+#7-----------------------------------
 from Module import *
+a=int(input("paev>>>:  "))
+b=int(input("kuu>>>:  "))
+c=int(input("aasta>>>:  "))
